@@ -1,0 +1,45 @@
+.rating{
+
+  width: 33.75rem;
+  height: 12.5rem;
+  position: relative;
+
+  top: -5.75rem;
+  left: 47.5rem;
+  
+  &__box{
+    width: 32.6875rem;
+    height: 3.5625rem;
+    
+    border-radius: 0.3rem;
+    background-color: $LightGrayishMagenta;
+
+    margin-bottom: 1rem;
+  }
+
+  span{
+    position: relative;
+    left: 10%;
+    top:33%;
+    margin-left: 2rem;
+    color:$VeryDarkMagenta;
+    font-weight: 700;
+  }
+}
+
+
+
+.star{
+  position: relative;
+  top: 33%;
+  left: 10%;
+  margin-right: 0.25rem;
+}
+
+.center{
+  transform: translateX(10%);
+}
+
+.right{
+  transform: translateX(20%);
+}

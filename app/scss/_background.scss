@@ -1,0 +1,35 @@
+.bg__top{
+
+
+
+
+  width: 40.7%;  //587
+  height: 49.5%;  //357
+
+  background-image: url(/images/bg-pattern-top-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+
+
+}
+
+.bg__bot{
+
+
+  background-image: url(/images/bg-pattern-bottom-desktop.svg);
+
+
+  width: 76.1%; //1096px
+  height: 92.5%; // 666px
+
+  background-size: cover;
+
+  position: absolute;
+  right: 0px;
+  bottom: 0px; 
+  z-index: -1;
+
+
+}
